@@ -77,7 +77,7 @@ body {
 }
 
 /* Logo */
-.logo-header {
+.logo {
     color: var(--accent-color);
     font-family: Raleway, cursive;
     font-size: 26px;
@@ -85,7 +85,7 @@ body {
     text-decoration: none;
 }
 
-.logo-header > .logo-studio {
+.logo__studio {
     color: #000000;
 }
 
@@ -869,17 +869,12 @@ textarea {
     margin-right: 70px;
 }
 
-.logo-footer {
+.logo--footer {
     margin-top: 0;
     margin-bottom: 0;
-    color: var(--accent-color);
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
 }
 
-.logo-footer > .logo-studio {
+.logo__studio--footer {
     color: var(--title-white-color);
 }
 
