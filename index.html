@@ -50,50 +50,50 @@
         <!--Шапка-->
         <div class="overlay">
             <div class="hero">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button class="button" data-modal-open>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         <form class="form-modal">
-                            <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
-                            <div class="form-groop">
+                            <h2 class="form-modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+                            <div class="form-modal__groop">
                                 <label for="name">Имя</label>
                                 <input type="name" name="name" id="name">
-                                <svg class="person-svg">
+                                <svg class="form-modal__svg">
                                     <use href="./images/icons.svg#person"></use>
                                 </svg>
                             </div>
-                            <div class="form-groop">
+                            <div class="form-modal__groop">
                                 <label for="phone">Телефон</label>
                                 <input type="text" name="phone" id="phone">
-                                <svg class="person-svg">
+                                <svg class="form-modal__svg">
                                     <use href="./images/icons.svg#phone"></use>
                                 </svg>
                             </div>
-                            <div class="form-groop">
+                            <div class="form-modal__groop">
                                 <label for="mail">Почта</label>
                                 <input type="text" name="mail" id="mail">
-                                <svg class="person-svg">
+                                <svg class="form-modal__svg">
                                     <use href="./images/icons.svg#email"></use>
                                 </svg>
                             </div>
-                            <div class="form-groop">
+                            <div class="form-modal__groop">
                                 <label for="comment">Комментарий</label>
                                 <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
                             </div>
-                            <label class="agree">
-                                <input class="agree-input" type="checkbox" name="policy">
-                                <span class="agree-lable">
-                                    Соглашаюсь с рассылкой и принимаю <a href="" class="agree-link">Условия договора</a> 
+                            <label class="form-modal__agreement">
+                                <input class="form-modal__input" type="checkbox" name="policy">
+                                <span class="form-modal__text">
+                                    Соглашаюсь с рассылкой и принимаю <a href="" class="form-modal__link">Условия договора</a> 
                                 </span>
-                                <svg class="icon-check-svg">
+                                <svg class="form-modal__icon">
                                     <use href="./images/icons.svg#icon-check"></use>
                                 </svg>
                             </label>    
                             <button type="submit" class="button">Отправить</button>
                         </form>
-                        <button class="button-close" data-modal-close>
-                            <svg class="button-span">
+                        <button class="button__close" data-modal-close>
+                            <svg class="button__svg">
                                 <use href="./images/icons.svg#close"></use>
                             </svg>
                         </button>
@@ -105,67 +105,67 @@
         <section class="section">
             <div class="conteiner">
                <!--<h2 class="section-title">Особенности</h2>--> 
-                <ul class="features list">
-                    <li class="list icon-antenna">
-                        <div class="rectangle">
-                            <svg class="rectangle-svg">
+                <ul class="peculiarities list">
+                    <li class="peculiarities__list icon-antenna">
+                        <div class="peculiarities__conteiner">
+                            <svg class="peculiarities__svg">
                                 <use href="./images/symbol-defs.svg#antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="title-features">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                        <p class="paragraf">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="peculiarities__title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                        <p class="peculiarities__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="list icon-clock">
-                        <div class="rectangle">
-                            <svg class="rectangle-svg">
+                    <li class="peculiarities__list icon-clock">
+                        <div class="peculiarities__conteiner">
+                            <svg class="peculiarities__svg">
                                 <use href="./images/symbol-defs.svg#clock"></use>
                             </svg>
                         </div>
-                        <h3 class="title-features">ПУНКТУАЛЬНОСТЬ</h3>
-                        <p class="paragraf">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="peculiarities__title">ПУНКТУАЛЬНОСТЬ</h3>
+                        <p class="peculiarities__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="list icon-diagram">
-                        <div class="rectangle">
-                            <svg class="rectangle-svg">
+                    <li class="peculiarities__list icon-diagram">
+                        <div class="peculiarities__conteiner">
+                            <svg class="peculiarities__svg">
                                 <use href="./images/symbol-defs.svg#diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="title-features">ПЛАНИРОВАНИЕ</h3>
-                        <p class="paragraf">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="peculiarities__title">ПЛАНИРОВАНИЕ</h3>
+                        <p class="peculiarities__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="list icon-astronaut">
-                        <div class="rectangle">
-                            <svg class="rectangle-svg">
+                    <li class="peculiarities__list icon-astronaut">
+                        <div class="peculiarities__conteiner">
+                            <svg class="peculiarities__svg">
                                 <use href="./images/symbol-defs.svg#astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="title-features">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                        <p class="paragraf">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="peculiarities__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                        <p class="peculiarities__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!--Чем мы занимаемся-->
-        <section class="section-study">
+        <section class="development">
             <div class="conteiner">
-                <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="section-list list">
-                    <li class="list">
-                        <a href=""><img class="picture" src="./images/box-1.jpg" alt="работа на компьютере" width="370" height="294"></a>
-                        <div class="product">
-                            <p class="product-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+                <h2 class="development__title">Чем мы занимаемся</h2>
+                <ul class="development__list list">
+                    <li class="development__item">
+                        <a href=""><img class="development__img" src="./images/box-1.jpg" alt="работа на компьютере" width="370" height="294"></a>
+                        <div class="development__product">
+                            <p class="development__text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
                         </div>
                     </li>
-                    <li class="list">
-                        <a href=""><img class="picture" src="./images/box-2.jpg" alt="работа на телефоне" width="370" height="294"></a>
-                        <div class="product">
-                            <p class="product-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+                    <li class="development__item">
+                        <a href=""><img class="development__img" src="./images/box-2.jpg" alt="работа на телефоне" width="370" height="294"></a>
+                        <div class="development__product">
+                            <p class="development__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
                         </div>
                     </li>
-                    <li class="list">
-                        <a href=""><img class="picture" src="./images/box-3.jpg" alt="работа на планшете" width="370" height="294"></a>
-                        <div class="product">
-                            <p class="product-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+                    <li class="development__item">
+                        <a href=""><img class="development__img" src="./images/box-3.jpg" alt="работа на планшете" width="370" height="294"></a>
+                        <div class="development__product">
+                            <p class="development__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
                         </div>
                     </li>
                 </ul>
@@ -174,155 +174,163 @@
         <!--Наша команда-->
         <section class="team">
             <div class="conteiner">
-                <h2 class="team-title">Наша команда</h2>
-            <ul class="team-list list">
-                <li class="list">
-                    <img class="picture" src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    <div class="info">
-                        <h3 class="subtitle">Игорь Демьяненко</h3>
-                        <p class="job" lang="en">Product Designer</p>
+                <h2 class="team__title">Наша команда</h2>
+            <ul class="team__list list">
+                <li class="team__item">
+                    <article class="card-set">
+                        <img class="card-set__img" src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <div class="card-set__meta">
+                        <h3 class="card-set__title">Игорь Демьяненко</h3>
+                        <p class="card-set__job" lang="en">Product Designer</p>
                         <ul class="network list">
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="instagram">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="instagram">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="twitter">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="twitter">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="facebook">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="facebook">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="linkedin">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="linkedin">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#linkedin"></use>
                                     </svg>
                                 </a>
                             </li>
                         </ul> 
                     </div>
+                    </article>
                 </li>
-                <li class="list">
-                    <img class="picture" src="./images/team-card-2.jpg" alt="Ольга Репина" width="270" height="260">
-                    <div class="info">
-                        <h3 class="subtitle">Ольга Репина</h3>
-                        <p class="job" lang="en">Frontend Developer</p>
+                <li class="team__item">
+                    <article class="card-set">
+                    <img class="card-set__img" src="./images/team-card-2.jpg" alt="Ольга Репина" width="270" height="260">
+                    <div class="card-set__meta">
+                        <h3 class="card-set__title">Ольга Репина</h3>
+                        <p class="card-set__job" lang="en">Frontend Developer</p>
                         <ul class="network list">
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="instagram">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="instagram">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="twitter">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="twitter">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="facebook">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="facebook">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="linkedin">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="linkedin">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#linkedin"></use>
                                     </svg>
                                 </a>
                             </li>
                         </ul> 
                     </div>
+                    </article>
                 </li>
-                <li class="list">
-                    <img class="picture" src="./images/team-card-3.jpg" alt="Николай Тарасов" width="270" height="260">
-                    <div class="info">
-                        <h3 class="subtitle">Николай Тарасов</h3>
-                        <p class="job" lang="en">Marketing</p>
+                <li class="team__item">
+                    <article class="card-set">
+                        <img class="card-set__img" src="./images/team-card-3.jpg" alt="Николай Тарасов" width="270" height="260">
+                        <div class="card-set__meta">
+                        <h3 class="card-set__title">Николай Тарасов</h3>
+                        <p class="card-set__job" lang="en">Marketing</p>
                         <ul class="network list">
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="instagram">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="instagram">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="twitter">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="twitter">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="facebook">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="facebook">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="linkedin">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="linkedin">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#linkedin"></use>
                                     </svg>
                                 </a>
                             </li>
                         </ul>  
                     </div>
+                    </article>
                 </li>
-                <li class="list">
-                    <img class="picture" src="./images/team-card-4.jpg" alt="Михаил Ермаков" width="270" height="260">
-                    <div class="info">
-                        <h3 class="subtitle">Михаил Ермаков</h3>
-                        <p class="job" lang="en">UI Designer</p>
+                <li class="team__item">
+                    <article class="card-set">
+                        <img class="card-set__img" src="./images/team-card-4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                        <div class="card-set__meta">
+                        <h3 class="card-set__title">Михаил Ермаков</h3>
+                        <p class="card-set__job" lang="en">UI Designer</p>
                         <ul class="network list">
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="instagram">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="instagram">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="twitter">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="twitter">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="facebook">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="facebook">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li class="network-item">
-                                <a href="" class="network-link" aria-label="linkedin">
-                                    <svg class="network-icon">
+                            <li class="network__item">
+                                <a href="" class="network__link" aria-label="linkedin">
+                                    <svg class="network__icon">
                                         <use href="./images/symbol-defs.svg#linkedin"></use>
                                     </svg>
                                 </a>
                             </li>
                         </ul> 
                     </div>
+                    </article>
                 </li>
             </ul>
             </div>
@@ -330,46 +338,46 @@
         <!--Постоянные клиенты-->
         <section class="client">
             <div class="conteiner">
-                <h2 class="client-title">Постоянные клиенты</h2>
-            <ul class="client-list list">
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-1">
-                        <svg class="client-icon group-1">
+                <h2 class="client__title">Постоянные клиенты</h2>
+            <ul class="client__list list">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-1">
+                        <svg class="client__icon group-1">
                             <use href="./images/symbol-defs.svg#group-1"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-2">
-                        <svg class="client-icon group-2">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-2">
+                        <svg class="client__icon group-2">
                             <use href="./images/symbol-defs.svg#group-2"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-3">
-                        <svg class="client-icon group-3">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-3">
+                        <svg class="client__icon group-3">
                             <use href="./images/symbol-defs.svg#group-3"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-4">
-                        <svg class="client-icon group-4">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-4">
+                        <svg class="client__icon group-4">
                             <use href="./images/symbol-defs.svg#group-4"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-5">
-                        <svg class="client-icon group-5">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-5">
+                        <svg class="client__icon group-5">
                             <use href="./images/symbol-defs.svg#group-5"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="client-item">
-                    <a href="" class="client-link" aria-label="group-6">
-                        <svg class="client-icon group-6">
+                <li class="client__item">
+                    <a href="" class="client__link" aria-label="group-6">
+                        <svg class="client__icon group-6">
                             <use href="./images/symbol-defs.svg#group-6"></use>
                         </svg>
                     </a>
