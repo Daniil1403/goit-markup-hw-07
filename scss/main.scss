@@ -1,18 +1,21 @@
 // Utils
-@import "./utils/vars";
+@import "./utils/variables";
 @import "./utils/visually-hidden";
 
 // Base
 @import "./base/reset";
+@import "./base/normalize";
 
 // Components
 @import "./components/page-header/page-header";
-@import "./components/page-header/logo-header";
+@import "./components/shared/logo-header";
 @import "./components/page-header/site-nav";
 @import "./components/page-header/auth-nav";
 
 @import "./components/hero";
+@import "./components/shared/button";
 @import "./components/form-modal";
+@import "./components/shared/button-form-modal";
 @import "./components/section";
 @import "./components/peculiarities";
 @import "./components/development";
@@ -20,10 +23,11 @@
 @import "./components/client";
 
 @import "./components/page-footer/page-footer";
-@import "./components/page-footer/logo-footer";
+@import "./components/shared/logo-footer";
 @import "./components/page-footer/address";
 @import "./components/page-footer/basement-social";
 @import "./components/page-footer/form";
+@import "./components/shared/button-footer-form";
 
 @import "./components/page-portfolio/conteiner-section";
 @import "./components/page-portfolio/row";
