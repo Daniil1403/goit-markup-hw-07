@@ -46,11 +46,11 @@
     text-align: center;
 
     transition: background-color 250ms var(--timing-function);
-}
 
-.basement-social__link:hover,
-.basement-social__link:focus {
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
 .basement-social__icon {

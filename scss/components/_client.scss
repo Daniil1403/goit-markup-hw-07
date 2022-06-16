@@ -51,14 +51,14 @@
 
     transition: border 250ms var(--timing-function), 
                 border-radius 250ms var(--timing-function), 
-                fill 250ms var(--timing-function)
-}
+                fill 250ms var(--timing-function);
 
-.client__link:hover,
-.client__link:focus {
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+        fill: var(--accent-color);
+    }
 }
 
 .client__icon {

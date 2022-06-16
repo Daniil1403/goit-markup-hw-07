@@ -87,12 +87,12 @@
 
     transition: background-color 250ms var(--timing-function),
                 color 250ms var(--timing-function);
-}
 
-.network__link:hover,
-.network__link:focus {
-    background-color: var(--accent-color);
-    color: var(--title-white-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--title-white-color);
+    }
 }
 
 .network__icon {

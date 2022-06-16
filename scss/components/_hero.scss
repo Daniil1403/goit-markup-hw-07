@@ -108,6 +108,11 @@
     background: var(--title-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     outline: none;
+
+    &:focus {
+        border: 1px solid #2196F3;
+        border-radius: 50%;
+    }
 }
 
 .button__svg {
@@ -121,14 +126,9 @@
 
     width: 18px;
     height: 18px;
-}
 
-.button__close:focus {
-    border: 1px solid #2196F3;
-    border-radius: 50%;
-}
-
-.button__close:focus > .button__svg {
-    fill: var(--accent-color);
+    .button__close:focus > & {
+        fill: var(--accent-color);
+    }
 }
 

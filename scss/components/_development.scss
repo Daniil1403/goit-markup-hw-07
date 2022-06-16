@@ -26,11 +26,11 @@
     background-color: rgba(47, 48, 58, 0.8);
 
     transition: opacity 250ms var(--timing-function);
-}
 
-.development__product:hover,
-.development__product:focus {
-    opacity: 1;
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
 }
 
 .development__text {
