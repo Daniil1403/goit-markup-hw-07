@@ -7,12 +7,12 @@
     display: flex;
 }
 
-.development__item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .development__item {
     position: relative;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .development__product {

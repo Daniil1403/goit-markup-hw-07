@@ -23,13 +23,13 @@
     align-items: center
 }
 
-.basement-social__item:not(:last-child) {
-    margin-right: 10px;
-}
-
 .basement-social__item {
     height: 44px;
     width: 44px;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .basement-social__link {

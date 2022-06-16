@@ -29,10 +29,10 @@
 
 .client__item {
     align-items: center;
-}
 
-.client__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .client__link {
