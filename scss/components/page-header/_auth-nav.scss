@@ -51,3 +51,25 @@
     height: 80px;
     fill: inherit;
 }
+
+/* ::before */
+/*
+.auth-nav .item::before {
+    content: '';
+    display: flex;
+    margin-right: 10px;
+    height: 12px;
+    width: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.auth-nav .item.icon-envelope::before {
+    background-image: url(../images/envelope.svg);
+}
+
+.auth-nav .item.icon-vector::before {
+    background-image: url(../images/Vector.svg);
+}
+*/

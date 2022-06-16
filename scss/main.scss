@@ -1,0 +1,30 @@
+// Utils
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+// Base
+@import "./base/reset";
+
+// Components
+@import "./components/page-header/page-header";
+@import "./components/page-header/logo-header";
+@import "./components/page-header/site-nav";
+@import "./components/page-header/auth-nav";
+
+@import "./components/hero";
+@import "./components/form-modal";
+@import "./components/section";
+@import "./components/peculiarities";
+@import "./components/development";
+@import "./components/team";
+@import "./components/client";
+
+@import "./components/page-footer/page-footer";
+@import "./components/page-footer/logo-footer";
+@import "./components/page-footer/address";
+@import "./components/page-footer/basement-social";
+@import "./components/page-footer/form";
+
+@import "./components/page-portfolio/conteiner-section";
+@import "./components/page-portfolio/row";
+@import "./components/page-portfolio/services";
