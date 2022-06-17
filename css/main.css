@@ -614,15 +614,14 @@ summary {
 }
 
 .button__close {
-  position: relative;
-  display: block;
+  position: absolute;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
   width: 30px;
   height: 30px;
-  left: 492px;
-  top: 6px;
+  right: 8px;
+  top: 8px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
