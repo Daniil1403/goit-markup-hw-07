@@ -46,42 +46,6 @@ html {
   margin: -1px;
 }
 
-body {
-  color: var(--primery-text-color);
-  background-color: var(--title-white-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -343,6 +307,42 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+body {
+  color: var(--primery-text-color);
+  background-color: var(--title-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /* Header */
